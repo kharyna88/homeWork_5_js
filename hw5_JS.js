@@ -2,8 +2,8 @@
 // Build a function that does currency converter from USD to UAH (1 USD = 8 UAH).
 
 function convert(amount) {
-    let UAH = 8;
-    return amount * UAH;
+    let uah = 8;
+    return amount * uah;
 }
 
 convert(3);
@@ -25,8 +25,8 @@ reverse('abc')
 
 function printStairs(n) {
     let stairs = '#';
-    for (let i = 1; i <= n;) {
-        console.log(stairs.repeat(i++));
+    for (let i = 1; i <= n; i++) {
+        console.log(stairs.repeat(i));
     }
 
 }
